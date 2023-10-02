@@ -1,0 +1,75 @@
+/* Início CSS da Section Advertising */
+
+.ad-album { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    left: 50%;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+  }
+  
+  .container-ad { 
+    position: relative;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .container-ad-fi{
+    position:relative ;
+    width: 50%
+  }
+  
+  .ad-img {
+    background-image: 
+    url('https://cdn.wallpapersafari.com/38/7/4btLsa.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: scale-down;
+    width:100%;
+    height: 70vh;
+  }
+  
+  .ad-album-title {
+    text-align: center;
+    padding: 3px;
+    color: #000;
+    background-color: green;
+    width: 80%;
+    margin-bottom: 50px;
+    font-style: normal;
+    border-radius: 5px;
+  }
+  
+  .ad-album-artist {
+    padding: 3px;
+    width: 40%;
+    display: flex;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .ad-album-album {
+    margin-top: 25px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .button-ad {
+    font-size: 16px;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
+  .button-ad a:hover {
+    font-size: 18px;
+    color: #fff;
+  }
